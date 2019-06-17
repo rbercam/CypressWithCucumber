@@ -1,0 +1,19 @@
+{
+  "name": "tdcypresscucumber",
+  "version": "1.0.0",
+  "description": "Cypress with cucumber plugin",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "Rafael Berçam Medeiros",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.3.1",
+    "cypress-cucumber-preprocessor": "^1.12.0"
+  }
+}
